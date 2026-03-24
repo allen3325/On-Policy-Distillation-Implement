@@ -132,7 +132,7 @@ def main():
     parser.add_argument("--max_new_tokens", type=int, default=64)
     parser.add_argument("--num_samples", type=int, default=4,
                         help="每個 prompt 取樣幾次（取平均）")
-    parser.add_argument("--prompt_offset", type=int, default=200,
+    parser.add_argument("--prompt_offset", type=int, default=7000,
                         help="從 GSM8K 的第幾筆開始取 held-out prompts（避開訓練用的前 200 筆）")
     parser.add_argument("--device", type=str, default="auto")
     parser.add_argument("--output", type=str, default=None,
