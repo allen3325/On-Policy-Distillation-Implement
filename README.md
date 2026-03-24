@@ -17,9 +17,9 @@ The training script [on_policy_distill.py](on_policy_distill.py) follows this lo
 4. Compute teacher log-probabilities on the same trajectories.
 5. Build token-level advantages from reverse KL:
 
-   $$\text{reverse\_kl}_t = \log \pi_s(a_t|s_t) - \log \pi_T(a_t|s_t)$$
+    `reverse_kl_t = log pi_s(a_t|s_t) - log pi_T(a_t|s_t)`
 
-   $$A_t = -\text{reverse\_kl}_t$$
+    `A_t = -reverse_kl_t`
 
 6. Recompute current student log-probabilities with gradients.
 7. Optimize an importance-sampling policy-gradient style objective.
