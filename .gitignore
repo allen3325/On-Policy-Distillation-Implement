@@ -13,3 +13,4 @@ wheels/
 distilled_model/
 
 *.log
+*.copy
