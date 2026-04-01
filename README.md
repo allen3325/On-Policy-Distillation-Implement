@@ -42,7 +42,7 @@ Prompt tokens are masked out; loss is only applied to generated tokens.
 - PyTorch with CUDA support recommended
 - Hugging Face Transformers + Datasets
 - [Flash Attention2](https://github.com/dao-ailab/flash-attention?tab=readme-ov-file#installation-and-features)
-- [flash-linear-attention](flash-linear-attention)
+- [flash-linear-attention](https://github.com/fla-org/flash-linear-attention)
 - [causal_conv1d](https://github.com/Dao-AILab/causal-conv1d)
 
 Dependencies are declared in [pyproject.toml](pyproject.toml).
